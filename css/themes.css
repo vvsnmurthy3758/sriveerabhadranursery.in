@@ -1,0 +1,95 @@
+/* Earthy Tones Theme */
+:root {
+    --main-bg-color: #F8F8F8;
+    --nav-bg-color: #556B2F;
+    --nav-text-color: #8B4513;
+    --nav-hover-color: #D2B48C;
+    --link-color: #8B4513;
+    --link-hover-color: #D2B48C;
+    --footer-bg-color: #556B2F;
+    --footer-text-color: #8B4513;
+    --footer-hover-color: #D2B48C;
+    --social-link-color: #8B4513;
+    --social-link-hover-color: #D2B48C;
+    --home-section-hover-bg: #DCDCDC;
+}
+
+/* Antique Rose Garden Theme */
+:root.antique-rose {
+    --main-bg-color: #FFF5EE;
+    --nav-bg-color: #B0C4DE;
+    --nav-text-color: #8B4513;
+    --nav-hover-color: #D2B48C;
+    --link-color: #8B4513;
+    --link-hover-color: #D2B48C;
+    --footer-bg-color: #B0C4DE;
+    --footer-text-color: #8B4513;
+    --footer-hover-color: #D2B48C;
+    --social-link-color: #8B4513;
+    --social-link-hover-color: #D2B48C;
+    --home-section-hover-bg: #FFE4E1;
+}
+
+/* Classic Cottage Garden Theme */
+:root.cottage-garden {
+    --main-bg-color: #F8F8FF;
+    --nav-bg-color: #9370DB;
+    --nav-text-color: #FFD700;
+    --nav-hover-color: #FF6347;
+    --link-color: #FFD700;
+    --link-hover-color: #FF6347;
+    --footer-bg-color: #9370DB;
+    --footer-text-color: #FFD700;
+    --footer-hover-color: #FF6347;
+    --social-link-color: #FFD700;
+    --social-link-hover-color: #FF6347;
+    --home-section-hover-bg: #FFFAF0;
+}
+
+/* Rustic Meadow Theme */
+:root.rustic-meadow {
+    --main-bg-color: #F5F5DC;
+    --nav-bg-color: #556B2F;
+    --nav-text-color: #FFD700;
+    --nav-hover-color: #FF6347;
+    --link-color: #FFD700;
+    --link-hover-color: #FF6347;
+    --footer-bg-color: #556B2F;
+    --footer-text-color: #FFD700;
+    --footer-hover-color: #FF6347;
+    --social-link-color: #FFD700;
+    --social-link-hover-color: #FF6347;
+    --home-section-hover-bg: #F0E68C;
+}
+
+/* Victorian Garden Elegance Theme */
+:root.victorian-garden {
+    --main-bg-color: #F8F8FF;
+    --nav-bg-color: #800000;
+    --nav-text-color: #FFD700;
+    --nav-hover-color: #000080;
+    --link-color: #FFD700;
+    --link-hover-color: #000080;
+    --footer-bg-color: #800000;
+    --footer-text-color: #FFD700;
+    --footer-hover-color: #000080;
+    --social-link-color: #FFD700;
+    --social-link-hover-color: #000080;
+    --home-section-hover-bg: #F5F5F5;
+}
+
+/* Sunset Garden Theme */
+:root.sunset-garden {
+    --main-bg-color: #FFE4B5;
+    --nav-bg-color: #FF4500;
+    --nav-text-color: #FF69B4;
+    --nav-hover-color: #D2B48C;
+    --link-color: #FF69B4;
+    --link-hover-color: #D2B48C;
+    --footer-bg-color: #FF4500;
+    --footer-text-color: #FF69B4;
+    --footer-hover-color: #D2B48C;
+    --social-link-color: #FF69B4;
+    --social-link-hover-color: #D2B48C;
+    --home-section-hover-bg: #D3D3D3;
+}
