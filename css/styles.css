@@ -2,7 +2,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #333;
     margin: 0;
     padding: 0;
 }
@@ -15,9 +15,9 @@ header {
 }
 
 nav {
-    text-align: right; /* Move the navigation to the right */
+    text-align: right;
     padding: 1em;
-    box-sizing: border-box; /* Include padding in the width */
+    box-sizing: border-box;
 }
 
 nav ul {
@@ -46,9 +46,10 @@ nav a {
 }
 
 .box {
+    background-color: #777 ;
     text-align: center;
     max-width: 250px;
-    margin-bottom: 20px;
+    margin: 20px;
     padding: 10px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -57,12 +58,13 @@ nav a {
 
 .box:hover {
     transform: scale(1.05);
+    background-color: #ccc;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
 .box img {
     width: 100%;
-    height: 150px; /* Adjust the height as needed */
+    height: 150px;
     object-fit: cover;
     border-radius: 8px;
 }
@@ -80,4 +82,31 @@ footer {
 
 .office-info {
     margin-bottom: 10px;
+}
+
+.plants-search {
+    margin: 20px auto;
+    text-align: center;
+}
+
+#search {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.category-btn {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.category-btn:hover {
+    background-color: #45a049;
 }

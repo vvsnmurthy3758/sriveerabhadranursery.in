@@ -1,3 +1,4 @@
+
 [
   {
       "name": "Rose",
@@ -7,7 +8,8 @@
       "suitability": "Indoor/Outdoor",
       "season": "Year-round",
       "watering": "Regular",
-      "description": "The rose is a woody perennial flowering plant."
+      "description": "The rose is a woody perennial flowering plant.",
+      "tags": ["Indoor", "Flowers"]
   },
   {
       "name": "Ficus elastica",
@@ -17,7 +19,8 @@
       "suitability": "Indoor",
       "season": "Year-round",
       "watering": "Moderate",
-      "description": "The rubber plant is a popular indoor plant known for its glossy leaves."
+      "description": "The rubber plant is a popular indoor plant known for its glossy leaves.",
+      "tags": ["Indoor"]
   },
   {
       "name": "Lavandula",
@@ -27,7 +30,8 @@
       "suitability": "Outdoor",
       "season": "Spring to Summer",
       "watering": "Low",
-      "description": "Lavender is a fragrant herb with beautiful purple flowers."
+      "description": "Lavender is a fragrant herb with beautiful purple flowers.",
+      "tags": ["Outdoor", "Flowers"]
   },
   {
       "name": "Citrus sinensis",
@@ -37,7 +41,8 @@
       "suitability": "Outdoor",
       "season": "Year-round",
       "watering": "Regular",
-      "description": "The orange tree produces sweet and juicy oranges."
+      "description": "The orange tree produces sweet and juicy oranges.",
+      "tags": ["Outdoor", "Fruits"]
   },
   {
       "name": "Monstera deliciosa",
@@ -47,7 +52,8 @@
       "suitability": "Indoor",
       "season": "Year-round",
       "watering": "Moderate",
-      "description": "The Monstera deliciosa, also known as the Swiss Cheese Plant, is a popular indoor plant with unique leaves."
+      "description": "The Monstera deliciosa, also known as the Swiss Cheese Plant, is a popular indoor plant with unique leaves.",
+      "tags": ["Indoor"]
   },
   {
       "name": "Prunus serrulata",
@@ -57,7 +63,8 @@
       "suitability": "Outdoor",
       "season": "Spring",
       "watering": "Regular",
-      "description": "Cherry Blossom trees are known for their beautiful pink blossoms in spring."
+      "description": "Cherry Blossom trees are known for their beautiful pink blossoms in spring.",
+      "tags": ["Outdoor", "Flowers"]
   },
   {
       "name": "Morus alba",
@@ -67,6 +74,7 @@
       "suitability": "Outdoor",
       "season": "Summer",
       "watering": "Regular",
-      "description": "The Mulberry tree produces sweet and nutritious mulberries."
+      "description": "The Mulberry tree produces sweet and nutritious mulberries.",
+      "tags": ["Outdoor", "Fruits"]
   }
 ]

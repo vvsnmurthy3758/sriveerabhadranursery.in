@@ -1,0 +1,51 @@
+<!-- templates/plants.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sri Veerabhadra Nursery - Plants</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/plants.css">
+</head>
+<body>
+    <header>
+        <h1>Sri Veerabhadra Nursery</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="plants.html">Plants</a></li>
+                <li><a href="ideas.html">Ideas</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="plants-search">
+        <input type="text" id="search" placeholder="Search plants...">
+        <button class="category-btn" data-category="Indoor">Indoor</button>
+        <button class="category-btn" data-category="Fruits">Fruits</button>
+        <button class="category-btn" data-category="Flowers">Flowers</button>
+        <button class="category-btn" data-category="Avenue">Avenue</button>
+        <button class="category-btn" data-category="Landscaping">Landscaping</button>
+    </div>
+
+    <section id="plantsContainer" class="box-container"></section>
+
+    <footer>
+        <section class="social-media">
+            <!-- Add your social media icons and links here -->
+        </section>
+        <section class="office-info">
+            <p>Office Timings: Monday to Friday, 9:00 AM - 5:00 PM</p>
+            <p>Office Location: Your Office Address</p>
+        </section>
+        <p>&copy; 2023 Sri Veerabhadra Nursery. All rights reserved.</p>
+    </footer>
+
+    <script src="../js/script.js"></script>
+    <script src="../js/plants.js"></script>
+
+</body>
+</html>
